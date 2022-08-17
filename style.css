@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: cursive;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+nav .logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+a:hover{
+	background: darkcyan;
+	transition: .5s;
+	border-width: 100%;
+	height: 80px;
+}
+
+div.container{
+	background-color: darkslategray;
+	color: whitesmoke;
+	text-align: center;
+	padding: 60px;
+	font-size: 30px;
+}
+.container h1{
+	font-family: sans-serif;
+	font-size: 60px;
+}
+
+
+div.card{
+	color: ghostwhite;
+	text-align: center;
+	padding: 50px;
+	font-size: 20px;
+	background-color: darkcyan;
+}
+
+.bgvid{
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	z-index: -1	
+}
+
+@media (min-aspect-ratio: 16/9){
+	.bgvid{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9){
+	.bgvid{
+		width: auto;
+		height: 100%;
+	}
+}
+
+div.about{
+	background-color: darkslategray;
+	color: white;
+	text-align: left;
+	padding: 50px;
+	font-size: 20px;
+	font-family: fantasy;
+	align-items: right;
+}
+div.contact{
+	margin-left: auto;
+	padding: 50px;
+	size: 50%;
+	align-items: center;
+	color: yellow;
+}
+.imgcont{
+	padding-bottom: 0px;
+}
+
+.foot{
+	background-color: blanchedalmond;
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+	opacity: 0.3;
+	color: darkgoldenrod;
+	text-align: center;
+}
+.foot:hover{
+	opacity: 1.0;
+}
+.foot a{
+	margin-left: auto;
+}
